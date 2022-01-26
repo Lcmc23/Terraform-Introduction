@@ -2,7 +2,7 @@
 
 ### How Terraform Stores Current State
 
-[Terraform][tfhome] stores cluster state data in
+[Terraform](https://www.terraform.io) stores cluster state data in
 `.terraform/terraform.tfstate` by default. Configuring the `prefix` and
 `bucket` variables will enable storage in a remote bucket instead and is
 useful for sharing state among multiple administrators.
